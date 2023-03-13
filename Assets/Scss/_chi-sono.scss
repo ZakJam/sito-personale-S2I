@@ -1,0 +1,103 @@
+.Chi-sono .div-1 h1 {
+background-color: $second-color-lt;
+color: $third-color-lt;
+font-size: 50px;
+padding: 5px 15px;
+position: relative;
+bottom: 15px;
+}
+
+.Chi-sono .div-4-cs {
+background-color: $third-color-lt;
+text-align: center;
+border: 1px solid black;
+max-width: 310px;
+padding-bottom: 80px;
+padding-left: 6px;
+padding-right: 6px;
+padding-top:8px ;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+
+}
+
+
+.Chi-sono .div-2-cs {
+clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+background-color: $third-color-lt;
+text-align: center;
+border: 1px solid black;
+max-width: 310px;
+padding-bottom: 55px;
+padding-left: 2px;
+padding-right: 2px;
+padding-top:8px ;
+}
+
+.Chi-sono .div-3-cs{
+background-color: $third-color-lt;
+text-align: center;
+border: 1px solid black;
+max-width: 310px;
+padding-bottom: 55px;
+padding-left: 2px;
+padding-right: 2px;
+padding-top:8px ;
+clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+}
+
+.Chi-sono .div-1 img {
+width: 25px;
+height: 25px;
+position: relative;
+top: 5px;
+}
+
+.bordo-nero-2{
+background-color: $dark-lt;
+padding-bottom:3px;
+clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+padding-left: 1px;
+padding-right:1px;
+padding-top: 1px;
+}
+
+.Chi-sono .bordo-nero {
+padding-top: 1px;
+padding-left: 1px;
+padding-right: 1px;
+}
+
+
+
+
+
+
+
+/*DARK MOBILE*/
+
+.dark-btn:checked ~ section{
+background-color: $second-color-dk;
+
+
+h1{
+background-color: $dark-dk;
+border: 1px solid $white-dk;
+color: $white-dk;
+}
+
+
+p{
+background-color: $white-dk;
+}
+.numeri{
+color: white;
+background-color: transparent;
+}
+
+}
+
+
+.dark-btn:checked~.Chi-sono img{
+display: none;
+}
+

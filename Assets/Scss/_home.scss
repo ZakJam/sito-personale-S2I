@@ -1,0 +1,111 @@
+section{
+height: 100vh;
+/*border: 3px dashed red;*/
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+}
+
+.sun-btn:checked~.Home,.Competenze,.Contatti{
+background-color: $third-color-lt;
+}
+
+.div-1{
+height: 80%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+/*border: 1px solid green ;*/
+position: relative;
+top: 10vh;
+z-index: 5;
+}
+
+.Home .div-1 h1{
+background-color: $second-color-lt;
+color: $white-lt;
+font-size: 5rem;
+padding: 5px 30px;
+border: 1px solid black;
+}
+
+.bordo-nero{
+background-color: $dark-lt;
+padding-bottom:3px;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+padding-left: 2px;
+padding-right:2px;
+padding-top: 2px;
+}
+
+.div-2{
+background-color: $white-lt;
+max-width: 310px;
+text-align:center;
+font-size: 23px;
+padding: 25px;
+padding-bottom: 90px ;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+}
+
+.div-2 img {
+width: 30px;
+height: 30px;
+position: relative;
+top: 5px;
+}
+
+.div-3{
+background-color: $white-lt;
+border: 1px solid black;
+padding: 7px 15px;
+font-size: 20px;
+}
+
+.Home .div-1 a img {
+height: 70px;
+width: 70px;
+background-color: $second-color-lt;
+padding: 10px;
+clip-path:circle(50%) ;
+}
+
+.numeri{
+position: relative;
+left: 30%;
+top:5% ;
+font-size: 100px;
+z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+/*DARK MOBILE*/
+
+.dark-btn:checked ~ .Home{
+background-color: $second-color-dk;
+}
+
+.dark-btn:checked ~ .Home .div-1 h1{
+background-color: $dark-dk;
+border: 1px solid $white-dk;
+}
+
+.dark-btn:checked ~ .Home .numeri {
+color:$white-dk;
+}
+
+.dark-btn:checked ~ .Home .div-1 a img {
+background-color: $dark-dk;
+}
+

@@ -1,0 +1,115 @@
+.Competenze{
+height: 120vh;
+}
+
+.Competenze .div-1 h1{
+background-color: $second-color-lt;
+color: $white-lt;
+font-size: 40px;
+padding: 5px 15px;
+}
+
+
+.Competenze .div-1 .bordo-nero p{
+background-color: $white-lt;
+padding: 8px;
+padding-bottom: 70px;
+max-width: 370px;
+font-size: 20px;
+text-align: center;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+}
+
+.Competenze .div-1 .bordo-nero{
+padding-bottom: 4px;
+}
+
+.Competenze .div-1 a{
+color: green;
+}
+
+.Competenze .div-2-c {
+
+img{
+height: 70px;
+width: 80px;
+background-color: $white-lt;
+padding: 5px;
+border: 1px solid $dark-lt;
+margin-right: 10px;
+
+} 
+
+.div-3-c{
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+align-items: center;
+p{
+background-color: $second-color-lt;
+color: $white-lt;
+text-align: center;
+padding: 5px 15px;
+height: fit-content;
+width: fit-content;
+}
+
+}
+
+}
+
+
+.Competenze .numeri {
+position: relative;
+top: 80px;
+}
+
+
+.div-2-c-dark{
+img{
+height: 70px;
+width: 80px;
+background-color: $white-lt;
+padding: 5px;
+border: 1px solid $dark-lt;
+margin-right: 10px;
+} 
+
+.div-3-c{
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+align-items: center;
+p{
+background-color: $second-color-lt;
+color: $white-lt;
+text-align: center;
+padding: 5px 15px;
+height: fit-content;
+width: fit-content;
+}
+}   
+}
+
+.sun-btn:checked~ .Competenze .div-1 .div-2-c-dark{
+display: none;
+}
+
+/*DARK MOBILE*/
+.dark-btn:checked ~.Competenze .div-3-c p{
+background-color: $third-color-dk;
+border: 1px solid $white-dk;
+}
+
+.dark-btn:checked~.Competenze .div-2-c{
+display: none;
+}
+
+.css-dark img{
+height: 80px;
+width: 65px;
+}
+
+.css-dark p{
+margin-left: 15px;
+}
