@@ -181,7 +181,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     padding: 20px 10px; }
 
   header .menu li:hover {
-    background-color: black; }
+    background-color: #ffff; }
+
+  .dark-btn:checked ~ header .menu li:hover {
+    background-color: #000000; }
 
   header {
     display: grid;
@@ -211,7 +214,17 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     margin-right: 45px; }
 
   .red {
-    z-index: 15; } }
+    z-index: 15;
+    border-radius: 15px; }
+
+  .blue {
+    border-radius: 15px; }
+
+  .red:hover {
+    background-color: #000000; }
+
+  .blue:hover {
+    background-color: #ffff; } }
 section {
   height: 100vh;
   /*border: 3px dashed red;*/
