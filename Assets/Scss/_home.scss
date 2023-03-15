@@ -109,3 +109,65 @@ color:$white-dk;
 background-color: $dark-dk;
 }
 
+
+
+
+
+
+
+
+/*DESKTOP*/
+
+@media (min-width:1061px){
+.non-mostrare {
+display: none;
+}   
+
+.Home .div-1{
+height: 80%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+position: relative;
+top: 10vh;
+z-index: 5;
+}
+.Home .div-1 h1{
+font-size:120px;
+}
+
+.Home .div-2{
+background-color: $white-lt;
+max-width: 730px;
+text-align: center;
+font-size:40px ;
+background-color: #fff;
+padding-bottom: 100px;
+padding-top: 15px;
+padding-left:15px;
+padding-right:15px;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+}
+
+
+.Home .bordo-nero{
+all: unset;
+clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+background-color: $dark-lt;
+padding: 3px;
+padding-bottom: 5px;
+}
+
+.numeri{
+position: relative;
+left: 37%;
+top:5% ;
+font-size: 100px;
+z-index: 4;
+}
+
+
+
+}

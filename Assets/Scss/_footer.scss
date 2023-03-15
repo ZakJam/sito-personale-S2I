@@ -95,3 +95,52 @@ background-color: transparent;
 .dark-btn:checked~ .Contatti .div-6-co{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*DESKTOP*/
+
+@media (min-width:1061px){
+.Contatti .div-3-co{
+display: none;
+}
+
+.div-6-co,
+.div-5-co{
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+position: relative;
+left: 35px;
+}
+
+.Contatti .div-1 .div-2-co img{
+height: 100px;
+width: 100px;
+background-color: $white-lt;
+border: 1px solid $dark-lt;
+padding: 7px;
+margin-right: 75px;
+}
+
+.Contatti .div-1 h1{
+position: relative;
+bottom: 45px;    
+}
+
+}
+
+
+
+
+

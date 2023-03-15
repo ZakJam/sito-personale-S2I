@@ -70,3 +70,66 @@ background-color: $third-color-dk;
 color: $white-dk;
 }
 
+
+
+
+
+
+
+/*DESKTOP*/
+
+@media (min-width:1061px){
+.Progetti{
+    height: 100vh;
+}
+
+.Progetti .div-6-p{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+position: relative;
+bottom: 50px;
+}
+
+.Progetti .div-1 h1{
+position: relative;
+bottom: 40px;
+}
+
+.Progetti .div-1 .div-3-p {
+height: 150px;
+width: 150px;
+background-color:$dark-lt;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: $white-lt;
+}
+
+.Progetti .div-1 .div-4-p{
+background-color: $third-color-lt;
+border: 1px solid $dark-lt;
+padding: 5px 15px;
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.Progetti .div-1 .div-5-p {
+height: fit-content;
+width: 250px;
+background-color:$second-color-lt;
+color: $white-lt;
+padding: 5px 10px;
+text-align: center;
+margin-bottom: 5px;
+}
+
+.Progetti .numeri{
+top: 0px;
+}
+
+
+
+}

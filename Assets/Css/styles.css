@@ -299,13 +299,57 @@ section {
 .dark-btn:checked ~ .Home .div-1 a img {
   background-color: #000000; }
 
+/*DESKTOP*/
+@media (min-width: 1061px) {
+  .non-mostrare {
+    display: none; }
+
+  .Home .div-1 {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    z-index: 5; }
+
+  .Home .div-1 h1 {
+    font-size: 120px; }
+
+  .Home .div-2 {
+    background-color: #ffff;
+    max-width: 730px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #fff;
+    padding-bottom: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0); }
+
+  .Home .bordo-nero {
+    all: unset;
+    clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
+    background-color: #000000;
+    padding: 3px;
+    padding-bottom: 5px; }
+
+  .numeri {
+    position: relative;
+    left: 37%;
+    top: 5%;
+    font-size: 100px;
+    z-index: 4; } }
 .Chi-sono .div-1 h1 {
   background-color: #303481;
   color: #FFFF00;
   font-size: 50px;
   padding: 5px 15px;
   position: relative;
-  bottom: 15px; }
+  top: 20px; }
 
 .Chi-sono .div-4-cs {
   background-color: #FFFF00;
@@ -359,6 +403,13 @@ section {
   padding-left: 1px;
   padding-right: 1px; }
 
+.div-7-cs {
+  display: none; }
+
+.div-5-cs {
+  position: relative;
+  top: 40px; }
+
 /*DARK MOBILE*/
 .dark-btn:checked ~ section {
   background-color: #222831; }
@@ -372,9 +423,144 @@ section {
     color: white;
     background-color: transparent; }
 
-.dark-btn:checked ~ .Chi-sono img {
+.dark-btn:checked ~ .Chi-sono .div-6-cs img {
   display: none; }
 
+/*DESKTOP*/
+@media (min-width: 1061px) {
+  .Chi-sono .div-1 h1 {
+    font-size: 55px;
+    position: relative;
+    top: 85px; }
+
+  .div-5-cs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    top: 50px; }
+
+  .div-6-cs,
+  .div-7-cs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  .Chi-sono .div-7-cs img {
+    all: unset;
+    width: 250px;
+    height: 250px;
+    clip-path: circle(40%); }
+
+  .bordo-nero-cs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    clip-path: circle(41%); }
+
+  .dark-btn:checked ~ .Chi-sono .bordo-nero-cs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    clip-path: circle(41%); }
+
+  .Chi-sono .div-7-cs p {
+    font-size: 40px;
+    background-color: transparent; }
+
+  .bordo-nero-2 {
+    position: relative;
+    left: 40px; }
+
+  .div-2-cs,
+  .div-3-cs,
+  .div-4-cs {
+    font-size: 15px; }
+
+  .Chi-sono .div-4-cs {
+    background-color: #FFFF00;
+    text-align: center;
+    max-width: 370px;
+    padding-bottom: 80px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 8px;
+    clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0); }
+
+  .Chi-sono .div-2-cs {
+    clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+    background-color: #FFFF00;
+    text-align: center;
+    max-width: 370px;
+    padding-bottom: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 8px; }
+
+  .Chi-sono .div-3-cs {
+    background-color: #FFFF00;
+    text-align: center;
+    max-width: 370px;
+    padding-bottom: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 8px;
+    clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0); }
+
+  .div-6-cs {
+    position: relative;
+    top: 70px;
+    right: 40px; }
+
+  .bordo-nero-2 {
+    background-color: #000000;
+    padding-bottom: 3px;
+    clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+    padding-left: 2px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 4px; }
+
+  .Chi-sono .bordo-nero {
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-right: 2px; }
+
+  .dark-btn:checked ~ .Chi-sono .div-2-cs {
+    clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
+    text-align: center;
+    max-width: 360px;
+    padding-bottom: 45px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 8px; }
+
+  .dark-btn:checked ~ .Chi-sono .div-4-cs {
+    text-align: center;
+    max-width: 370px;
+    padding-bottom: 60px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 8px;
+    clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0); }
+
+  .dark-btn:checked ~ .Chi-sono .div-3-cs {
+    text-align: center;
+    max-width: 370px;
+    padding-bottom: 35px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 8px;
+    clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0); }
+
+  .dark-btn:checked ~ .Chi-sono .div-7-cs p {
+    background-color: transparent;
+    color: #ffff; } }
 .Competenze {
   height: 120vh; }
 
@@ -461,6 +647,41 @@ section {
 .css-dark p {
   margin-left: 15px; }
 
+/*DESKTOP*/
+@media (min-width: 1061px) {
+  .Competenze {
+    height: 100vh; }
+
+  .div-2-c-dark,
+  .div-2-c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%; }
+
+  .Competenze .div-1 .bordo-nero p {
+    background-color: #ffff;
+    padding: 8px;
+    padding-bottom: 70px;
+    max-width: 670px;
+    font-size: 25px;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0); }
+
+  .Competenze .div-1 .bordo-nero {
+    padding-bottom: 4px;
+    position: relative; }
+
+  .div-2-c {
+    position: relative;
+    bottom: 50px; }
+
+  .div-3-c {
+    margin-left: 25px; }
+
+  .Competenze .numeri {
+    position: relative;
+    top: 10px; } }
 .Progetti {
   height: 120vh; }
 
@@ -513,6 +734,51 @@ section {
   background-color: #575E68;
   color: #ffff; }
 
+/*DESKTOP*/
+@media (min-width: 1061px) {
+  .Progetti {
+    height: 100vh; }
+
+  .Progetti .div-6-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    bottom: 50px; }
+
+  .Progetti .div-1 h1 {
+    position: relative;
+    bottom: 40px; }
+
+  .Progetti .div-1 .div-3-p {
+    height: 150px;
+    width: 150px;
+    background-color: #000000;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff; }
+
+  .Progetti .div-1 .div-4-p {
+    background-color: #FFFF00;
+    border: 1px solid #000000;
+    padding: 5px 15px;
+    font-size: 25px;
+    margin-bottom: 10px; }
+
+  .Progetti .div-1 .div-5-p {
+    height: fit-content;
+    width: 250px;
+    background-color: #303481;
+    color: #ffff;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 5px; }
+
+  .Progetti .numeri {
+    top: 0px; } }
 .Contatti .div-1 {
   all: unset;
   height: 100%;
@@ -589,5 +855,31 @@ section {
 
 .dark-btn:checked ~ .Contatti .div-6-co {
   display: none; }
+
+/*DESKTOP*/
+@media (min-width: 1061px) {
+  .Contatti .div-3-co {
+    display: none; }
+
+  .div-6-co,
+  .div-5-co {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35px; }
+
+  .Contatti .div-1 .div-2-co img {
+    height: 100px;
+    width: 100px;
+    background-color: #ffff;
+    border: 1px solid #000000;
+    padding: 7px;
+    margin-right: 75px; }
+
+  .Contatti .div-1 h1 {
+    position: relative;
+    bottom: 45px; } }
 
 /*# sourceMappingURL=styles.css.map */
