@@ -1,3 +1,6 @@
+.Chi-sono{
+height: 115vh;
+}
 
 .Chi-sono .div-1 h1 {
 background-color: $second-color-lt;
@@ -131,7 +134,13 @@ display: none;
 /*DESKTOP*/
 
 @media (min-width:1061px){
-.Chi-sono .div-1 h1 {
+
+.Chi-sono{
+height: 100vh;
+}
+
+
+    .Chi-sono .div-1 h1 {
 font-size: 40px;
 position: relative;
 top: 65px;

@@ -19,8 +19,7 @@ header {
   width: 100%;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  height: 10vh; }
+  grid-template-columns: repeat(6, 1fr); }
 
 header ul {
   overflow: hidden;
@@ -158,6 +157,9 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
   .menu li {
     float: left; }
 
+  header {
+    height: 10vh; }
+
   header .menu {
     clear: none;
     float: right; }
@@ -252,7 +254,7 @@ section {
 .Home .div-1 h1 {
   background-color: #303481;
   color: #ffff;
-  font-size: 5rem;
+  font-size: 4.5rem;
   padding: 5px 30px;
   border: 1px solid black; }
 
@@ -357,6 +359,9 @@ section {
     top: 5%;
     font-size: 80px;
     z-index: 4; } }
+.Chi-sono {
+  height: 115vh; }
+
 .Chi-sono .div-1 h1 {
   background-color: #303481;
   color: #FFFF00;
@@ -442,6 +447,9 @@ section {
 
 /*DESKTOP*/
 @media (min-width: 1061px) {
+  .Chi-sono {
+    height: 100vh; }
+
   .Chi-sono .div-1 h1 {
     font-size: 40px;
     position: relative;
@@ -627,7 +635,7 @@ section {
 
 .Competenze .numeri {
   position: relative;
-  top: 80px; }
+  top: 60px; }
 
 .div-2-c-dark img {
   height: 70px;
@@ -709,7 +717,7 @@ section {
     font-size: 30px;
     padding: 5px 15px; } }
 .Progetti {
-  height: 120vh; }
+  height: 130vh; }
 
 .Progetti .div-1 h1 {
   background-color: #303481;
@@ -820,7 +828,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
   overflow: hidden; }
 
 .Contatti .div-1 h1 {
