@@ -19,7 +19,8 @@ header {
   width: 100%;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(6, 1fr); }
+  grid-template-columns: repeat(6, 1fr);
+  height: 10vh; }
 
 header ul {
   overflow: hidden;
@@ -29,11 +30,11 @@ header ul a {
   display: block;
   text-align: center;
   padding: 5px;
-  font-size: 25px; }
+  font-size: 20px; }
 
 header .logo {
   float: left;
-  font-size: 40px;
+  font-size: 30px;
   font-family: RamadhanAmazing;
   grid-column: 1/3;
   display: flex;
@@ -178,7 +179,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     align-items: center; }
 
   header .menu li {
-    padding: 20px 10px; }
+    padding: 15px 10px; }
 
   header .menu li:hover {
     background-color: #ffff; }
@@ -201,14 +202,14 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     float: right;
     position: fixed;
     right: 5vw;
-    top: 20px;
+    top: 15px;
     padding: 5px;
     z-index: 20; }
 
   .sun-label img,
   .dark-label img {
-    height: 30px;
-    width: 30px; }
+    height: 25px;
+    width: 25px; }
 
   .dark-label {
     margin-right: 45px; }
@@ -329,15 +330,15 @@ section {
     z-index: 5; }
 
   .Home .div-1 h1 {
-    font-size: 120px; }
+    font-size: 90px; }
 
   .Home .div-2 {
     background-color: #ffff;
-    max-width: 730px;
+    max-width: 550px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     background-color: #fff;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -354,7 +355,7 @@ section {
     position: relative;
     left: 37%;
     top: 5%;
-    font-size: 100px;
+    font-size: 80px;
     z-index: 4; } }
 .Chi-sono .div-1 h1 {
   background-color: #303481;
@@ -442,9 +443,15 @@ section {
 /*DESKTOP*/
 @media (min-width: 1061px) {
   .Chi-sono .div-1 h1 {
-    font-size: 55px;
+    font-size: 40px;
     position: relative;
-    top: 85px; }
+    top: 65px; }
+
+  .Chi-sono .div-1 img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px; }
 
   .div-5-cs {
     display: flex;
@@ -464,8 +471,8 @@ section {
 
   .Chi-sono .div-7-cs img {
     all: unset;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     clip-path: circle(40%); }
 
   .bordo-nero-cs {
@@ -483,7 +490,7 @@ section {
     clip-path: circle(41%); }
 
   .Chi-sono .div-7-cs p {
-    font-size: 40px;
+    font-size: 30px;
     background-color: transparent; }
 
   .bordo-nero-2 {
@@ -493,13 +500,13 @@ section {
   .div-2-cs,
   .div-3-cs,
   .div-4-cs {
-    font-size: 15px; }
+    font-size: 12px; }
 
   .Chi-sono .div-4-cs {
     background-color: #FFFF00;
     text-align: center;
-    max-width: 370px;
-    padding-bottom: 80px;
+    max-width: 310px;
+    padding-bottom: 60px;
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 8px;
@@ -509,8 +516,8 @@ section {
     clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
     background-color: #FFFF00;
     text-align: center;
-    max-width: 370px;
-    padding-bottom: 55px;
+    max-width: 310px;
+    padding-bottom: 45px;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 8px; }
@@ -518,8 +525,8 @@ section {
   .Chi-sono .div-3-cs {
     background-color: #FFFF00;
     text-align: center;
-    max-width: 370px;
-    padding-bottom: 55px;
+    max-width: 310px;
+    padding-bottom: 35px;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 8px;
@@ -675,9 +682,9 @@ section {
   .Competenze .div-1 .bordo-nero p {
     background-color: #ffff;
     padding: 8px;
-    padding-bottom: 70px;
-    max-width: 670px;
-    font-size: 25px;
+    padding-bottom: 50px;
+    max-width: 570px;
+    font-size: 20px;
     text-align: center;
     clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0); }
 
@@ -694,7 +701,13 @@ section {
 
   .Competenze .numeri {
     position: relative;
-    top: 10px; } }
+    top: 10px; }
+
+  .Competenze .div-1 h1 {
+    background-color: #303481;
+    color: #ffff;
+    font-size: 30px;
+    padding: 5px 15px; } }
 .Progetti {
   height: 120vh; }
 
@@ -762,11 +775,12 @@ section {
 
   .Progetti .div-1 h1 {
     position: relative;
-    bottom: 40px; }
+    bottom: 30px;
+    font-size: 40px; }
 
   .Progetti .div-1 .div-3-p {
-    height: 150px;
-    width: 150px;
+    height: 110px;
+    width: 110px;
     background-color: #000000;
     margin-bottom: 10px;
     display: flex;
@@ -778,7 +792,7 @@ section {
     background-color: #FFFF00;
     border: 1px solid #000000;
     padding: 5px 15px;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px; }
 
   .Progetti .div-1 .div-5-p {
@@ -884,8 +898,8 @@ section {
     left: 35px; }
 
   .Contatti .div-1 .div-2-co img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-color: #ffff;
     border: 1px solid #000000;
     padding: 7px;
@@ -893,6 +907,7 @@ section {
 
   .Contatti .div-1 h1 {
     position: relative;
-    bottom: 45px; } }
+    bottom: 35px;
+    font-size: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */

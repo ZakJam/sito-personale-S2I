@@ -144,9 +144,9 @@ width: 60%;
 .Competenze .div-1 .bordo-nero p{
 background-color: $white-lt;
 padding: 8px;
-padding-bottom: 70px;
-max-width: 670px;
-font-size: 25px;
+padding-bottom: 50px;
+max-width: 570px;
+font-size: 20px;
 text-align: center;
 clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 }
@@ -172,6 +172,12 @@ top: 10px;
 }
 
 
+.Competenze .div-1 h1{
+background-color: $second-color-lt;
+color: $white-lt;
+font-size: 30px;
+padding: 5px 15px;
+}
 
 
 }
