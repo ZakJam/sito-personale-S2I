@@ -12,7 +12,8 @@ body {
 
 @font-face {
   font-family: RamadhanAmazing;
-  src: url(/Assets/Fonts/Arabic\ Ramadhan.ttf); }
+  src: url(/Assets/Fonts/Arabic\ Ramadhan.otf); }
+
 header {
   position: fixed;
   box-shadow: 0px 0.5px 15px black;
