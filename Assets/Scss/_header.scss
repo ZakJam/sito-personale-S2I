@@ -12,8 +12,8 @@ font-family: 'Inter', sans-serif;
 }
 
 @font-face {
-font-family: 'Arabic-Ramadhan';
-src: url(/Assets/Fonts/Arabic-Ramadhan.woff);
+font-family: 'RamadhanAmazing';
+src: url(/assets/fonts/RamadhanAmazing-jEnDv.ttf);
 }
 
 header{
@@ -42,7 +42,7 @@ font-size: 20px;
 header .logo{
 float: left;
 font-size: 30px;
-font-family: Arabic-Ramadhan;
+font-family: RamadhanAmazing;
 grid-column: 1/3;
 display: flex;
 justify-content: center;
