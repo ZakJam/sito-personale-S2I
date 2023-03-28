@@ -362,7 +362,7 @@ section {
 .chi-sono {
   height: 115vh; }
 
-.chi-sono .div-1 h1 {
+.chi-sono .div-1 h2 {
   background-color: #303481;
   color: #FFFF00;
   font-size: 50px;
@@ -432,7 +432,7 @@ section {
 /*DARK MOBILE*/
 .dark-btn:checked ~ section {
   background-color: #222831; }
-  .dark-btn:checked ~ section h1 {
+  .dark-btn:checked ~ section h2 {
     background-color: #000000;
     border: 1px solid #ffff;
     color: #ffff; }
@@ -450,7 +450,7 @@ section {
   .chi-sono {
     height: 100vh; }
 
-  .chi-sono .div-1 h1 {
+  .chi-sono .div-1 h2 {
     font-size: 40px;
     position: relative;
     top: 65px; }
@@ -592,7 +592,7 @@ section {
 .competenze {
   height: 120vh; }
 
-.competenze .div-1 h1 {
+.competenze .div-1 h2 {
   background-color: #303481;
   color: #ffff;
   font-size: 40px;
@@ -711,7 +711,7 @@ section {
     position: relative;
     top: 10px; }
 
-  .competenze .div-1 h1 {
+  .competenze .div-1 h2 {
     background-color: #303481;
     color: #ffff;
     font-size: 30px;
@@ -719,7 +719,7 @@ section {
 .progetti {
   height: 130vh; }
 
-.progetti .div-1 h1 {
+.progetti .div-1 h2 {
   background-color: #303481;
   color: #FFFF00;
   font-size: 50px;
@@ -781,7 +781,7 @@ section {
     position: relative;
     bottom: 50px; }
 
-  .progetti .div-1 h1 {
+  .progetti .div-1 h2 {
     position: relative;
     bottom: 30px;
     font-size: 40px; }
@@ -831,7 +831,7 @@ section {
   height: 50vh;
   overflow: hidden; }
 
-.contatti .div-1 h1 {
+.contatti .div-1 h2 {
   background-color: #303481;
   color: #ffff;
   padding: 5px 15px;
@@ -913,7 +913,7 @@ section {
     padding: 7px;
     margin-right: 75px; }
 
-  .contatti .div-1 h1 {
+  .contatti .div-1 h2 {
     position: relative;
     bottom: 35px;
     font-size: 30px; } }
