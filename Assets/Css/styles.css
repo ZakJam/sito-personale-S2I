@@ -11,8 +11,8 @@ body {
   font-family: 'Inter', sans-serif; }
 
 @font-face {
-  font-family: 'RamadhanAmazing';
-  src: url(/assets/fonts/RamadhanAmazing-jEnDv.ttf); }
+  font-family: 'Arabic-Ramadhan';
+  src: url(/Assets/Fonts/Arabic-Ramadhan.woff); }
 header {
   position: fixed;
   box-shadow: 0px 0.5px 15px black;
@@ -34,7 +34,7 @@ header ul a {
 header .logo {
   float: left;
   font-size: 30px;
-  font-family: RamadhanAmazing;
+  font-family: Arabic-Ramadhan;
   grid-column: 1/3;
   display: flex;
   justify-content: center;
