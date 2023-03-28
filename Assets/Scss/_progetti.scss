@@ -1,21 +1,21 @@
-.Progetti{
+.progetti{
 height: 130vh;
 }
 
-.Progetti .div-1 h1{
+.progetti .div-1 h1{
 background-color: $second-color-lt;
 color: $third-color-lt;
 font-size: 50px;
 padding: 7px 15px;
 }
 
-.Progetti .div-1 .div-2-p{
+.progetti .div-1 .div-2-p{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-.Progetti .div-1 .div-3-p {
+.progetti .div-1 .div-3-p {
 height: 100px;
 width: 100px;
 background-color:$dark-lt;
@@ -26,7 +26,7 @@ align-items: center;
 color: $white-lt;
 }
 
-.Progetti .div-1 .div-4-p{
+.progetti .div-1 .div-4-p{
 background-color: $third-color-lt;
 border: 1px solid $dark-lt;
 padding: 5px 15px;
@@ -34,7 +34,7 @@ font-size: 20px;
 margin-bottom: 10px;
 }
 
-.Progetti .div-1 .div-5-p {
+.progetti .div-1 .div-5-p {
 height: fit-content;
 width: 200px;
 background-color:$second-color-lt;
@@ -44,7 +44,7 @@ text-align: center;
 margin-bottom: 5px;
 }
 
-.Progetti .numeri{
+.progetti .numeri{
 top: 80px;
 }
 
@@ -60,12 +60,12 @@ top: 80px;
 
 /*DARK MOBILE*/ 
 
-.dark-btn:checked ~ .Progetti .div-1 .div-2-p .div-4-p{
+.dark-btn:checked ~ .progetti .div-1 .div-2-p .div-4-p{
 background-color: $third-color-dk;
 color: $white-dk;
 }
 
-.dark-btn:checked ~ .Progetti .div-1 .div-2-p .div-5-p{
+.dark-btn:checked ~ .progetti .div-1 .div-2-p .div-5-p{
 background-color: $third-color-dk;
 color: $white-dk;
 }
@@ -79,11 +79,11 @@ color: $white-dk;
 /*DESKTOP*/
 
 @media (min-width:1061px){
-.Progetti{
+.progetti{
     height: 100vh;
 }
 
-.Progetti .div-6-p{
+.progetti .div-6-p{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
@@ -92,13 +92,13 @@ position: relative;
 bottom: 50px;
 }
 
-.Progetti .div-1 h1{
+.progetti .div-1 h1{
 position: relative;
 bottom: 30px;
 font-size: 40px;
 }
 
-.Progetti .div-1 .div-3-p {
+.progetti .div-1 .div-3-p {
 height: 110px;
 width: 110px;
 background-color:$dark-lt;
@@ -109,7 +109,7 @@ align-items: center;
 color: $white-lt;
 }
 
-.Progetti .div-1 .div-4-p{
+.progetti .div-1 .div-4-p{
 background-color: $third-color-lt;
 border: 1px solid $dark-lt;
 padding: 5px 15px;
@@ -117,7 +117,7 @@ font-size: 20px;
 margin-bottom: 10px;
 }
 
-.Progetti .div-1 .div-5-p {
+.progetti .div-1 .div-5-p {
 height: fit-content;
 width: 250px;
 background-color:$second-color-lt;
@@ -127,7 +127,7 @@ text-align: center;
 margin-bottom: 5px;
 }
 
-.Progetti .numeri{
+.progetti .numeri{
 top: 0px;
 }
 

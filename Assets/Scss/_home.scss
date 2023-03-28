@@ -7,7 +7,7 @@ align-items: center;
 overflow: hidden;
 }
 
-.sun-btn:checked~.Home,.Competenze,.Contatti{
+.sun-btn:checked~.home,.competenze,.contatti{
 background-color: $third-color-lt;
 }
 
@@ -24,7 +24,7 @@ top: 10vh;
 z-index: 5;
 }
 
-.Home .div-1 h1{
+.home .div-1 h1{
 background-color: $second-color-lt;
 color: $white-lt;
 font-size: 4.5rem;
@@ -65,7 +65,7 @@ padding: 7px 15px;
 font-size: 20px;
 }
 
-.Home .div-1 a img {
+.home .div-1 a img {
 height: 70px;
 width: 70px;
 background-color: $second-color-lt;
@@ -92,20 +92,20 @@ z-index: 4;
 
 /*DARK MOBILE*/
 
-.dark-btn:checked ~ .Home{
+.dark-btn:checked ~ .home{
 background-color: $second-color-dk;
 }
 
-.dark-btn:checked ~ .Home .div-1 h1{
+.dark-btn:checked ~ .home .div-1 h1{
 background-color: $dark-dk;
 border: 1px solid $white-dk;
 }
 
-.dark-btn:checked ~ .Home .numeri {
+.dark-btn:checked ~ .home .numeri {
 color:$white-dk;
 }
 
-.dark-btn:checked ~ .Home .div-1 a img {
+.dark-btn:checked ~ .home .div-1 a img {
 background-color: $dark-dk;
 }
 
@@ -123,7 +123,7 @@ background-color: $dark-dk;
 display: none;
 }   
 
-.Home .div-1{
+.home .div-1{
 height: 80%;
 width: 100%;
 display: flex;
@@ -134,11 +134,11 @@ position: relative;
 top: 10vh;
 z-index: 5;
 }
-.Home .div-1 h1{
+.home .div-1 h1{
 font-size:90px;
 }
 
-.Home .div-2{
+.home .div-2{
 background-color: $white-lt;
 max-width: 550px;
 text-align: center;
@@ -152,7 +152,7 @@ clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 }
 
 
-.Home .bordo-nero{
+.home .bordo-nero{
 all: unset;
 clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 background-color: $dark-lt;

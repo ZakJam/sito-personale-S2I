@@ -1,5 +1,5 @@
 
-.Contatti .div-1{
+.contatti .div-1{
 all: unset;
 height: 100%;
 position: relative;
@@ -9,7 +9,7 @@ justify-content: center;
 align-items: center;
 }
 
-.Contatti{
+.contatti{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -19,7 +19,7 @@ overflow: hidden;
 
 }
 
-.Contatti .div-1 h1{
+.contatti .div-1 h1{
 background-color: $second-color-lt;
 color: $white-lt;
 padding: 5px 15px;
@@ -28,7 +28,7 @@ position: relative;
 bottom: 3%;
 }
 
-.Contatti .div-1 .div-2-co {
+.contatti .div-1 .div-2-co {
 width: 50%;
 flex-wrap: wrap;
 display: flex;
@@ -47,7 +47,7 @@ margin-right: 15px;
 }
 
 
-.Contatti .div-3-co{
+.contatti .div-3-co{
 width: 50%;
 display: flex;
 flex-direction: column;
@@ -60,7 +60,7 @@ clip-path: circle(40%);
 }
 }
 
-.Contatti .div-3-co p{
+.contatti .div-3-co p{
     font-size: 25px;
 }
 
@@ -80,19 +80,19 @@ justify-content: center;
 align-items: center;
 }
 
-.sun-btn:checked ~ .Contatti .div-5-co{
+.sun-btn:checked ~ .contatti .div-5-co{
 display: none;
 }
 
 /*DARK MOBILE*/
 
 
-.dark-btn:checked ~ .Contatti .div-3-co p{
+.dark-btn:checked ~ .contatti .div-3-co p{
 color: $white-dk;
 background-color: transparent;
 }
 
-.dark-btn:checked~ .Contatti .div-6-co{
+.dark-btn:checked~ .contatti .div-6-co{
     display: none;
 }
 
@@ -110,7 +110,7 @@ background-color: transparent;
 /*DESKTOP*/
 
 @media (min-width:1061px){
-.Contatti .div-3-co{
+.contatti .div-3-co{
 display: none;
 }
 
@@ -124,7 +124,7 @@ position: relative;
 left: 35px;
 }
 
-.Contatti .div-1 .div-2-co img{
+.contatti .div-1 .div-2-co img{
 height: 80px;
 width: 80px;
 background-color: $white-lt;
@@ -133,7 +133,7 @@ padding: 7px;
 margin-right: 75px;
 }
 
-.Contatti .div-1 h1{
+.contatti .div-1 h1{
 position: relative;
 bottom: 35px;    
 font-size: 30px;

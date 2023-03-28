@@ -1,8 +1,8 @@
-.Chi-sono{
+.chi-sono{
 height: 115vh;
 }
 
-.Chi-sono .div-1 h1 {
+.chi-sono .div-1 h1 {
 background-color: $second-color-lt;
 color: $third-color-lt;
 font-size: 50px;
@@ -11,7 +11,7 @@ position: relative;
 top: 20px;
 }
 
-.Chi-sono .div-4-cs {
+.chi-sono .div-4-cs {
 background-color: $third-color-lt;
 text-align: center;
 border: 1px solid black;
@@ -25,7 +25,7 @@ clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 }
 
 
-.Chi-sono .div-2-cs {
+.chi-sono .div-2-cs {
 clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
 background-color: $third-color-lt;
 text-align: center;
@@ -37,7 +37,7 @@ padding-right: 2px;
 padding-top:8px ;
 }
 
-.Chi-sono .div-3-cs{
+.chi-sono .div-3-cs{
 background-color: $third-color-lt;
 text-align: center;
 border: 1px solid black;
@@ -49,7 +49,7 @@ padding-top:8px ;
 clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
 }
 
-.Chi-sono .div-1 img {
+.chi-sono .div-1 img {
 width: 25px;
 height: 25px;
 position: relative;
@@ -65,7 +65,7 @@ padding-right:1px;
 padding-top: 1px;
 }
 
-.Chi-sono .bordo-nero {
+.chi-sono .bordo-nero {
 padding-top: 1px;
 padding-left: 1px;
 padding-right: 1px;
@@ -108,7 +108,7 @@ background-color: transparent;
 }
 
 
-.dark-btn:checked~.Chi-sono .div-6-cs img{
+.dark-btn:checked~.chi-sono .div-6-cs img{
 display: none;
 }
 
@@ -135,18 +135,18 @@ display: none;
 
 @media (min-width:1061px){
 
-.Chi-sono{
+.chi-sono{
 height: 100vh;
 }
 
 
-    .Chi-sono .div-1 h1 {
+    .chi-sono .div-1 h1 {
 font-size: 40px;
 position: relative;
 top: 65px;
 }
 
-.Chi-sono .div-1 img {
+.chi-sono .div-1 img {
 width: 20px;
 height: 20px;
 position: relative;
@@ -172,7 +172,7 @@ align-items: center;
 
 }
 
-.Chi-sono .div-7-cs img{
+.chi-sono .div-7-cs img{
 all: unset;
 width:200px;
 height:200px;    
@@ -187,7 +187,7 @@ background-color: $dark-lt;
 clip-path: circle(41%)
 }
 
-.dark-btn:checked~ .Chi-sono .bordo-nero-cs{
+.dark-btn:checked~ .chi-sono .bordo-nero-cs{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -197,7 +197,7 @@ clip-path: circle(41%)
 
 
 
-.Chi-sono .div-7-cs p{
+.chi-sono .div-7-cs p{
 font-size: 30px;
 background-color: transparent;
 }
@@ -213,7 +213,7 @@ left: 40px;
 font-size: 12px;
 }
 
-.Chi-sono .div-4-cs {
+.chi-sono .div-4-cs {
 background-color: $third-color-lt;
 text-align: center;
 max-width: 310px;
@@ -225,7 +225,7 @@ clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 }
 
 
-.Chi-sono .div-2-cs {
+.chi-sono .div-2-cs {
 clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
 background-color: $third-color-lt;
 text-align: center;
@@ -236,7 +236,7 @@ padding-right: 2px;
 padding-top:8px ;
 }
 
-.Chi-sono .div-3-cs{
+.chi-sono .div-3-cs{
 background-color: $third-color-lt;
 text-align: center;
 max-width: 310px;
@@ -263,13 +263,13 @@ padding-top: 2px;
 padding-bottom: 4px;
 }
 
-.Chi-sono .bordo-nero {
+.chi-sono .bordo-nero {
 padding-top: 1px;
 padding-left: 2px;
 padding-right: 2px;
 }
 
-.dark-btn:checked ~ .Chi-sono .div-2-cs {
+.dark-btn:checked ~ .chi-sono .div-2-cs {
 clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
 text-align: center;
 max-width: 360px;
@@ -280,7 +280,7 @@ padding-top:8px ;
 }
 
 
-.dark-btn:checked~.Chi-sono .div-4-cs {
+.dark-btn:checked~.chi-sono .div-4-cs {
 text-align: center;
 max-width: 370px;
 padding-bottom: 60px;
@@ -291,7 +291,7 @@ clip-path: polygon(100% 0, 100% 74%, 50% 74%, 15% 90%, 25% 74%, 0 74%, 0 0);
 }
 
 
-.dark-btn:checked~ .Chi-sono .div-3-cs{
+.dark-btn:checked~ .chi-sono .div-3-cs{
 text-align: center;
 max-width: 370px;
 padding-bottom: 35px;
@@ -301,7 +301,7 @@ padding-top:8px ;
 clip-path: polygon(100% 0, 100% 79%, 73% 79%, 81% 94%, 50% 79%, 0 79%, 0 0);
 }
 
-.dark-btn:checked~.Chi-sono .div-7-cs p{
+.dark-btn:checked~.chi-sono .div-7-cs p{
 background-color: transparent;
 color: $white-dk;
 }
