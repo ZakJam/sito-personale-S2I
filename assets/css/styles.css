@@ -1,5 +1,5 @@
-/*DARK MODE COLOR*/
-/*LIGHT MODE COLOR*/
+/*dark MODE COLOR*/
+/*light MODE COLOR*/
 * {
   margin: 0;
   box-sizing: border-box;
@@ -121,14 +121,14 @@ header .menu-btn:checked ~ .menu-icon .nav-icon::after {
   top: 9px; }
 
 /*FINE MENU BASE*/
-/*LIGHT MODE*/
+/*light MODE*/
 .sun-btn:checked ~ header {
   background-color: #D6E6F2; }
 
 .sun-btn:checked ~ header li a {
   color: #000000; }
 
-/*DARK MODE*/
+/*dark MODE*/
 .dark-btn:checked ~ header {
   background-color: #393e46; }
 
@@ -301,7 +301,7 @@ section {
   font-size: 100px;
   z-index: 4; }
 
-/*DARK MOBILE*/
+/*dark MOBILE*/
 .dark-btn:checked ~ .home {
   background-color: #222831; }
 
@@ -429,7 +429,7 @@ section {
   position: relative;
   top: 40px; }
 
-/*DARK MOBILE*/
+/*dark MOBILE*/
 .dark-btn:checked ~ section {
   background-color: #222831; }
   .dark-btn:checked ~ section h2 {
@@ -660,7 +660,7 @@ section {
 .sun-btn:checked ~ .competenze .div-1 .div-2-c-dark {
   display: none; }
 
-/*DARK MOBILE*/
+/*dark MOBILE*/
 .dark-btn:checked ~ .competenze .div-3-c p {
   background-color: #575E68;
   border: 1px solid #ffff; }
@@ -759,7 +759,7 @@ section {
 .progetti .numeri {
   top: 80px; }
 
-/*DARK MOBILE*/
+/*dark MOBILE*/
 .dark-btn:checked ~ .progetti .div-1 .div-2-p .div-4-p {
   background-color: #575E68;
   color: #ffff; }
@@ -883,7 +883,7 @@ section {
 .sun-btn:checked ~ .contatti .div-5-co {
   display: none; }
 
-/*DARK MOBILE*/
+/*dark MOBILE*/
 .dark-btn:checked ~ .contatti .div-3-co p {
   color: #ffff;
   background-color: transparent; }

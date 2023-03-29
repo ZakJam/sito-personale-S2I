@@ -148,7 +148,7 @@ top: 9px;
 
 /*FINE MENU BASE*/
 
-/*LIGHT MODE*/
+/*light MODE*/
 .sun-btn:checked~header{
 background-color: $first-color-lt;
 }
@@ -159,7 +159,7 @@ color: $dark-lt;
 
 
 
-/*DARK MODE*/
+/*dark MODE*/
 .dark-btn:checked~header{
 background-color: $first-color-dk;
 }
