@@ -227,6 +227,8 @@ Queste sono le competenze che ho appreso ad oggi. </p></div>
 
 
 <script>
+if (window.matchMedia('(max-width: 1061px)').matches) {
+
 let menuItems = document.querySelectorAll('.link_menu');
 
 menuItems.forEach(function(menuItem) {
@@ -242,7 +244,7 @@ menuButton.addEventListener('click', function() {
   document.querySelector('.menu').style.display = 'block';
 });
 
-
+}
 
 </script>
 
